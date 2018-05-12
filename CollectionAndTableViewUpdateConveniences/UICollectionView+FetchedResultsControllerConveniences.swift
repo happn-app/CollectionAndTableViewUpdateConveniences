@@ -59,7 +59,7 @@ public extension UICollectionView {
 		case NSFetchedResultsChangeType.delete.rawValue: groupedDeleteSections(sectionIndexSet)
 			
 		case NSFetchedResultsChangeType.move.rawValue, NSFetchedResultsChangeType.update.rawValue:
-			if #available(iOS 10.0, *) {di.log.flatMap{ os_log("Got invalid section change %{public}@. Ignoring...", log: $0, type: .info, String(describing: type)) }}
+			if #available(iOS 10.0, *) {os_log("Got invalid section change %{public}@. Ignoring...", type: .info, String(describing: type))}
 			else                       {NSLog("Got invalid section change %@. Ignoring...", String(describing: type))}
 			
 		default:
@@ -75,7 +75,7 @@ public extension UICollectionView {
 		switch type.rawValue {
 		case NSFetchedResultsChangeType.insert.rawValue:
 			guard let newIndexPath = newIndexPath else {
-				if #available(iOS 10.0, *) {di.log.flatMap{ os_log("Got an insert object change type, but no new index path", log: $0, type: .info) }}
+				if #available(iOS 10.0, *) {os_log("Got an insert object change type, but no new index path", type: .info)}
 				else                       {NSLog("Got an insert object change type, but no new index path")}
 				return
 			}
@@ -83,7 +83,7 @@ public extension UICollectionView {
 			
 		case NSFetchedResultsChangeType.delete.rawValue:
 			guard let indexPath = indexPath else {
-				if #available(iOS 10.0, *) {di.log.flatMap{ os_log("Got a delete object change type, but no index path", log: $0, type: .info) }}
+				if #available(iOS 10.0, *) {os_log("Got a delete object change type, but no index path", type: .info)}
 				else                       {NSLog("Got a delete object change type, but no index path")}
 				return
 			}
@@ -91,7 +91,7 @@ public extension UICollectionView {
 			
 		case NSFetchedResultsChangeType.move.rawValue:
 			guard let indexPath = indexPath, let newIndexPath = newIndexPath else {
-				if #available(iOS 10.0, *) {di.log.flatMap{ os_log("Got a move object change type, but no index path or no new index path", log: $0, type: .info) }}
+				if #available(iOS 10.0, *) {os_log("Got a move object change type, but no index path or no new index path", type: .info)}
 				else                       {NSLog("Got a move object change type, but no index path or no new index path")}
 				return
 			}
@@ -112,7 +112,7 @@ public extension UICollectionView {
 			
 		case NSFetchedResultsChangeType.update.rawValue:
 			guard let indexPath = indexPath else {
-				if #available(iOS 10.0, *) {di.log.flatMap{ os_log("Got an update object change type, but no index path", log: $0, type: .info) }}
+				if #available(iOS 10.0, *) {os_log("Got an update object change type, but no index path", type: .info)}
 				else                       {NSLog("Got an update object change type, but no index path")}
 				return
 			}
