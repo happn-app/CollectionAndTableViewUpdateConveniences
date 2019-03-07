@@ -15,7 +15,7 @@
 /* Begin PBXFileReference section */
 		7B61BE1820A5E776002CE6C4 /* CollectionAndTableViewUpdateConveniences.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollectionAndTableViewUpdateConveniences.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B61BE1C20A5E776002CE6C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B75FC3E2231433D007F37D0 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7B75FC3E2231433D007F37D0 /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		7BEB0EEC20A5EBAA006EC984 /* UICollectionView+UnblockedBatchUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+UnblockedBatchUpdates.swift"; sourceTree = "<group>"; };
 		7BEB0EED20A5EBAA006EC984 /* UITableView+FetchedResultsControllerConveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+FetchedResultsControllerConveniences.swift"; sourceTree = "<group>"; };
 		7BEB0EEE20A5EBAA006EC984 /* UICollectionView+FetchedResultsControllerConveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+FetchedResultsControllerConveniences.swift"; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		7B61BE0E20A5E776002CE6C4 = {
 			isa = PBXGroup;
 			children = (
-				7B75FC3E2231433D007F37D0 /* LICENSE */,
+				7B75FC3E2231433D007F37D0 /* License.txt */,
 				7BF0B59F20A5FF5100719995 /* Readme.md */,
 				7B61BE1A20A5E776002CE6C4 /* CollectionAndTableViewUpdateConveniences */,
 				7B61BE1920A5E776002CE6C4 /* Products */,
