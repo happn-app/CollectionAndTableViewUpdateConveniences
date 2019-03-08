@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7B61BE1720A5E776002CE6C4"
+               BlueprintIdentifier = "7BF0DDA22232D41900E99660"
                BuildableName = "CollectionAndTableViewUpdateConveniences.framework"
-               BlueprintName = "CollectionAndTableViewUpdateConveniences"
+               BlueprintName = "CollectionAndTableViewUpdateConveniences-Static"
                ReferencedContainer = "container:CollectionAndTableViewUpdateConveniences.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7B61BE1720A5E776002CE6C4"
+            BlueprintIdentifier = "7BF0DDA22232D41900E99660"
             BuildableName = "CollectionAndTableViewUpdateConveniences.framework"
-            BlueprintName = "CollectionAndTableViewUpdateConveniences"
+            BlueprintName = "CollectionAndTableViewUpdateConveniences-Static"
             ReferencedContainer = "container:CollectionAndTableViewUpdateConveniences.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7B61BE1720A5E776002CE6C4"
+            BlueprintIdentifier = "7BF0DDA22232D41900E99660"
             BuildableName = "CollectionAndTableViewUpdateConveniences.framework"
-            BlueprintName = "CollectionAndTableViewUpdateConveniences"
+            BlueprintName = "CollectionAndTableViewUpdateConveniences-Static"
             ReferencedContainer = "container:CollectionAndTableViewUpdateConveniences.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
