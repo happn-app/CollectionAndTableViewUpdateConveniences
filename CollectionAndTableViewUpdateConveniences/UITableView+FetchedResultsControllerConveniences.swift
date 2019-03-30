@@ -46,7 +46,7 @@ public extension UITableView {
 	
 	/** Default row animation is `.fade` because this is what Apple used in their
 	“Typical Use” implementation. */
-	func fetchedResultsControllerDidChange(section: NSFetchedResultsSectionInfo, atIndex sectionIndex: Int, forChangeType type: NSFetchedResultsChangeType, sectionUpdateAnimation: UITableViewRowAnimation = .fade) {
+	func fetchedResultsControllerDidChange(section: NSFetchedResultsSectionInfo, atIndex sectionIndex: Int, forChangeType type: NSFetchedResultsChangeType, sectionUpdateAnimation: UITableView.RowAnimation = .fade) {
 		guard #available(iOS 4.0, *) else {return}
 		
 		let sectionIndexSet = IndexSet(integer: sectionIndex)
@@ -70,7 +70,7 @@ public extension UITableView {
 	
 	/** Default row animation is `.fade` because this is what Apple used in their
 	“Typical Use” implementation. */
-	func fetchedResultsControllerDidChange(object: Any, atIndexPath indexPath: IndexPath?, forChangeType type: NSFetchedResultsChangeType, newIndexPath: IndexPath?, rowUpdateAnimation: UITableViewRowAnimation = .fade) {
+	func fetchedResultsControllerDidChange(object: Any, atIndexPath indexPath: IndexPath?, forChangeType type: NSFetchedResultsChangeType, newIndexPath: IndexPath?, rowUpdateAnimation: UITableView.RowAnimation = .fade) {
 		guard #available(iOS 4.0, *) else {return}
 		
 		/* We MUST switch on the raw value. Core Data sometimes sends notification
@@ -128,7 +128,7 @@ public extension UITableView {
 		}
 	}
 	
-	private func handleUpdate(object: Any, indexPathBeforeEndUpdates: IndexPath, indexPathAfterEndUpdates: IndexPath?, reloadMode: FetchedResultsControllerReloadMode, rowAnimation: UITableViewRowAnimation) {
+	private func handleUpdate(object: Any, indexPathBeforeEndUpdates: IndexPath, indexPathAfterEndUpdates: IndexPath?, reloadMode: FetchedResultsControllerReloadMode, rowAnimation: UITableView.RowAnimation) {
 		switch reloadMode {
 		case .none: (/*nop*/)
 		case .reload: reloadRows(at: [indexPathBeforeEndUpdates], with: rowAnimation)
