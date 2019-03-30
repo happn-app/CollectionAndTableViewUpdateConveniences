@@ -22,7 +22,7 @@
 		7BEB0EEC20A5EBAA006EC984 /* UICollectionView+UnblockedBatchUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+UnblockedBatchUpdates.swift"; sourceTree = "<group>"; };
 		7BEB0EED20A5EBAA006EC984 /* UITableView+FetchedResultsControllerConveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+FetchedResultsControllerConveniences.swift"; sourceTree = "<group>"; };
 		7BEB0EEE20A5EBAA006EC984 /* UICollectionView+FetchedResultsControllerConveniences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+FetchedResultsControllerConveniences.swift"; sourceTree = "<group>"; };
-		7BF0B59F20A5FF5100719995 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		7BF0B59F20A5FF5100719995 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; wrapsLines = 1; };
 		7BF0DDAD2232D41900E99660 /* CollectionAndTableViewUpdateConveniences.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollectionAndTableViewUpdateConveniences.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -241,8 +241,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.1;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -271,7 +271,7 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VERSION_INFO_PREFIX = HPN;
 			};
 			name = Debug;
 		};
@@ -312,8 +312,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.1;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -336,7 +336,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VERSION_INFO_PREFIX = HPN;
 			};
 			name = Release;
 		};
@@ -378,7 +378,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = com.happn.CollectionAndTableViewUpdateConveniences;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.happn.CollectionAndTableViewUpdateConveniences-Static";
 				PRODUCT_NAME = CollectionAndTableViewUpdateConveniences;
 			};
 			name = Debug;
@@ -389,7 +389,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = com.happn.CollectionAndTableViewUpdateConveniences;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.happn.CollectionAndTableViewUpdateConveniences-Static";
 				PRODUCT_NAME = CollectionAndTableViewUpdateConveniences;
 			};
 			name = Release;
