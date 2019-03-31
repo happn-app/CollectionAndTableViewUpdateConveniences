@@ -1,4 +1,5 @@
-# CollectionAndTableViewUpdateConveniences ![Platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat) [![Carthage compatible](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![License](https://img.shields.io/github/license/happn-tech/CollectionAndTableViewUpdateConveniences.svg)](License.txt) [![happn](https://img.shields.io/badge/from-happn-0087B4.svg?style=flat)](https://happn.com)
+# CollectionAndTableViewUpdateConveniences
+![Platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat) [![Carthage compatible](https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![License](https://img.shields.io/github/license/happn-tech/CollectionAndTableViewUpdateConveniences.svg)](License.txt) [![happn](https://img.shields.io/badge/from-happn-0087B4.svg?style=flat)](https://happn.com)
 
 Easily handle `NSFetchedResultsController` updates in a `UITableView` or a `UICollectionView`.
 
