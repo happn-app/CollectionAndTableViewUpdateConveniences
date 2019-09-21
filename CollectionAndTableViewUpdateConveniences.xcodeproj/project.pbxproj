@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B1AC26A233621DE00B6F06A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		7B61BE1820A5E776002CE6C4 /* CollectionAndTableViewUpdateConveniences.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollectionAndTableViewUpdateConveniences.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B61BE1C20A5E776002CE6C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B75FC3E2231433D007F37D0 /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
@@ -49,6 +50,8 @@
 			children = (
 				7B75FC3E2231433D007F37D0 /* License.txt */,
 				7BF0B59F20A5FF5100719995 /* Readme.md */,
+				7B1AC26A233621DE00B6F06A /* Package.swift */,
+				7B61BE1C20A5E776002CE6C4 /* Info.plist */,
 				7B61BE1A20A5E776002CE6C4 /* CollectionAndTableViewUpdateConveniences */,
 				7B61BE1920A5E776002CE6C4 /* Products */,
 			);
@@ -69,7 +72,6 @@
 				7BEB0EED20A5EBAA006EC984 /* UITableView+FetchedResultsControllerConveniences.swift */,
 				7BEB0EEE20A5EBAA006EC984 /* UICollectionView+FetchedResultsControllerConveniences.swift */,
 				7BEB0EEC20A5EBAA006EC984 /* UICollectionView+UnblockedBatchUpdates.swift */,
-				7B61BE1C20A5E776002CE6C4 /* Info.plist */,
 			);
 			path = CollectionAndTableViewUpdateConveniences;
 			sourceTree = "<group>";
@@ -260,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = CollectionAndTableViewUpdateConveniences/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -325,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = CollectionAndTableViewUpdateConveniences/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
