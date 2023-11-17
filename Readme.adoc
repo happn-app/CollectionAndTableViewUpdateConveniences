@@ -6,6 +6,13 @@ François Lamboley <francois.lamboley@happn.com>
 
 image:https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat[Platforms] link:https://swift.org/package-manager/[image:https://img.shields.io/badge/SPM-compatible-E05C43.svg?style=flat[SPM Compatible]] link:License.txt[image:https://img.shields.io/github/license/happn-app/CollectionAndTableViewUpdateConveniences.svg[License]] link:{happn}[image:https://img.shields.io/badge/from-happn-0087B4.svg?style=flat[happn]]
 
+---
+
+NOTE: This repo is no longer maintained by happn. +
+A maintained version is available from its creator at https://github.com/Frizlab/CollectionAndTableViewUpdateConveniences[Frizlab/CollectionAndTableViewUpdateConveniences].
+
+---
+
 Easily handle `NSFetchedResultsController` updates in a `UITableView` or a `UICollectionView`.
 
 == What’s this for?
